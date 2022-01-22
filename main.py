@@ -15,15 +15,15 @@ from utils import image_loader, imshow, save_result
 from ConvNets import *
 from NeuralST import NST
 
-# model = sys.argv[1]
-# img_dims = int(sys.argv[2])
-# content_img = sys.argv[3]
-# style_img = sys.argv[4]
+model = sys.argv[1]
+img_dims = int(sys.argv[2])
+content_img = sys.argv[3]
+style_img = sys.argv[4]
 
-model = 'VGG'
-img_dims = 512
-content_img = 'bodybuilder.jpg'
-style_img = 'the_scream.jpg'
+# model = 'VGG'
+# img_dims = 512
+# content_img = 'bodybuilder.jpg'
+# style_img = 'the_scream.jpg'
 
 if __name__ == '__main__':
     
