@@ -5,7 +5,7 @@ Transfers style from Style Image to Content Image using white noise as input ima
 <img align="middle" alt="Python" width="800px" src="NSTchart.svg" />
 
 # Usage
-1. Save desired Content Image to `content_images/` folder and Style Image to `style_images` folder. 
+1. Save desired Content Image to `content_images/` folder and Style Image to `style_images/` folder. 
 2. Run `python3 main.py model img_dims content_img style_img`. Example: `python3 main.py VGG 512 bodybuider.jpg the_scream.jpg`
 3. Final result will be saved in `results/` folder.
 
