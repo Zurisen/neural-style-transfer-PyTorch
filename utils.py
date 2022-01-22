@@ -4,7 +4,7 @@ Created on Sat Jan 22 09:14:40 2022
 
 @author: charl
 """
-
+import os
 from PIL import Image
 import matplotlib.pyplot as plt
 import torch as T
@@ -40,6 +40,14 @@ def imshow(tensor, title=None):
     
     plt.pause(0.001) # pause a bit so that plots are updated
 
+def save_result(image, model, content_img, style_img, pathdir='results/'):
+    if not os.path.exists(pathdir):
+        os.makedirs(pathdir)
+    plt.imshow(image)
+    plt.axis("off")
+    plt.ioff()
+    plt.savefig(pathdir+model+'_'+
+                content_img[:-4]+'+'+style_img)
 
 def gram_matrix(input):
     """ Compute Gram matrix of input Torch tensor image """
