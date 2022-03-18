@@ -4,6 +4,9 @@ Transfers style from Style Image to Content Image using white noise as input ima
 
 <img align="middle" alt="Python" width="800px" src="NSTchart.svg" />
 
+# Jupyter Notebook
+Notebook to run the model directly from Jupyter, with each necessary step explained.
+
 # Usage
 1. Install dependencies `pip install -r requirements.txt`
 2. Save desired Content Image to `content_images/` folder and Style Image to `style_images/` folder. 
