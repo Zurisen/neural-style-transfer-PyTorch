@@ -1,5 +1,7 @@
 # About
-Neural Style Transfer Algorithm using VGG-19.
+This algorithm uses Deep Learning to compose one image in the style of another image. This is known as Neural Style Transfer and the technique was originally outlined in  <a href = "https://arxiv.org/abs/1508.06576" >A Neural Algorithm of Artistic Style (Gatys et al.)</a> .
+
+This Repository contains the code for performing Neural Style Transfer using a VGG-19 arquitecture.
 Transfers style from Style Image to Content Image using white noise as input image. Additional input parameter in NeuralST.py can be modified to use the Content Image as input image.
 
 <img align="middle" alt="Python" width="800px" src="NSTchart.svg" />
