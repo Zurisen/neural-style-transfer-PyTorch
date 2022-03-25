@@ -7,7 +7,7 @@ Transfers style from Style Image to Content Image using white noise as input ima
 <img align="middle" alt="Python" width="800px" src="misc/NSTchart.svg" />
 
 # Jupyter Notebook
-Notebook to run the model directly from Jupyter, with each necessary step explained.
+Notebook (`NeuralStyleTransfer.ipynb`) to run the model directly from Jupyter, with each necessary step explained.
 
 # Usage
 1. Install dependencies `pip install -r requirements.txt`
