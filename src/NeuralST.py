@@ -12,8 +12,8 @@ import torch.nn.functional as functional
 import torch.optim as optim
 import torch.nn as nn
 from torchvision import transforms
-from utils import image_loader, imshow
-from losses import *
+from src.utils import image_loader, imshow
+from src.losses import *
 
 
 def NST(st_model, img_dims, content_img, style_img, start_from_content=True,

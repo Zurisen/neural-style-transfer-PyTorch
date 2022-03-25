@@ -11,9 +11,9 @@ import torch as T
 import torch.nn.functional as functional
 import torch.optim as optim
 import torch.nn as nn
-from utils import image_loader, imshow, save_result
-from ConvNets import *
-from NeuralST import NST
+from src.utils import image_loader, imshow, save_result
+from src.ConvNets import *
+from src.NeuralST import NST
 
 model = sys.argv[1]
 img_dims = int(sys.argv[2])

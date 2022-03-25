@@ -7,7 +7,7 @@ Created on Sat Jan 22 10:11:07 2022
 
 import torch as T
 import torch.nn as nn
-from utils import InputNormalize
+from src.utils import InputNormalize
 import torchvision.models as models
 
 class VGG_NSTWrapper(nn.Module):

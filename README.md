@@ -4,7 +4,7 @@ This algorithm uses Deep Learning to compose one image in the style of another i
 This Repository contains the code for performing Neural Style Transfer using a VGG-19 arquitecture.
 Transfers style from Style Image to Content Image using white noise as input image. Additional input parameter in NeuralST.py can be modified to use the Content Image as input image.
 
-<img align="middle" alt="Python" width="800px" src="NSTchart.svg" />
+<img align="middle" alt="Python" width="800px" src="misc/NSTchart.svg" />
 
 # Jupyter Notebook
 Notebook to run the model directly from Jupyter, with each necessary step explained.

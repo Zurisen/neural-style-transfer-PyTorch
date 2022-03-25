@@ -6,7 +6,7 @@ Created on Sat Jan 22 10:09:03 2022
 """
 import torch.nn.functional as functional
 import torch.nn as nn
-from utils import gram_matrix
+from src.utils import gram_matrix
 
 
 class StyleLoss(nn.Module):
